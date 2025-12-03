@@ -1,6 +1,6 @@
 #i know I didn't follow the follow-up rules, but I did my best.
 from typing import List
-
+#simple bubble sort implementation with optimization check
 def sortColors(self, nums: List[int]) -> None:
     """
     Do not return anything, modify nums in-place instead.
