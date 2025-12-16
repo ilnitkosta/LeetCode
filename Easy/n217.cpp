@@ -16,6 +16,7 @@ public:
     }
 };
 
+// example usage
 int main() {
     Solution solution;
     
