@@ -16,11 +16,11 @@ public:
 
 // example usage
 int main() {
-    Solution solution;
+    Solution sol;
     vector<int> nums = {1, 2, 3, 4, 5};
     int k = 4;
 
-    int result = solution.minOperations(nums, k);
+    int result = sol.minOperations(nums, k);
     
     cout << "Minimum operations: " << result << endl;
     
