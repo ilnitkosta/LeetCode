@@ -8,7 +8,7 @@ def sortColors(self, nums: List[int]) -> None:
     n = len(nums)
     steps = 0 #i created this, to check will be the code more optimized
     for i in range(n):
-        for j in range(0, n - i - 1): # if i'll remove 'i', the code will be slower
+        for j in range(0, n - i - 1): # if i'll remove 'i', the solution will be slower
             steps += 1
             if nums[j] > nums[j + 1]:
                 nums[j], nums[j + 1] = nums[j + 1], nums[j]
