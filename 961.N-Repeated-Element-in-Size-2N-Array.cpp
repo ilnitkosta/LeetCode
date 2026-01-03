@@ -18,7 +18,7 @@ public:
 // example
 int main() {
     Solution sol;
-    vector<int> nums = {1, 2, 3, 3};
+    vector<int> nums = {1, 2, 3, 3}; // output 3
     int res = sol.repeatedNTimes(nums);
     cout << res << endl;
     return 0;
