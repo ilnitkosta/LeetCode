@@ -7,4 +7,4 @@ class Solution:
 sol = Solution()
 test = "Let's take Leetcode contest"
 
-print(sol.reverseWords(test)) # output 's'teL ekat edocteel tsetnoc'
+print(sol.reverseWords(test)) # output "s'teL ekat edocteeL tsetnoc"
