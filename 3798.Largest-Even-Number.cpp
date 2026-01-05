@@ -17,6 +17,6 @@ public:
 int main() {
     Solution sol;
     string s = "121221";
-    cout << sol.largestEven(s) << endl;
+    cout << sol.largestEven(s) << endl; // output: 12122
     return 0;
 }

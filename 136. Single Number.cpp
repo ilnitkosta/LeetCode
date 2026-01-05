@@ -22,6 +22,6 @@ public:
 int main() {
     Solution sol;
     vector<int> nums = {4,1,2,1,2};
-    cout << sol.singleNumber(nums) << endl;
+    cout << sol.singleNumber(nums) << endl; // output: 4
     return 0;
 }
