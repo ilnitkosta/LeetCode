@@ -19,11 +19,11 @@ public:
 int main() {
     Solution sol;
     vector<int> nums = {0, 2, 1, 5, 3, 4};
-    vector<int> result = sol.constructTransformedArray(nums);
+    vector<int> done = sol.constructTransformedArray(nums);
     
     cout << "Transformed Array: ";
-    for (int num : result) {
-        cout << "[" << num << "] ";
+    for (int x : done) {
+        cout << x << " ";
     }
     cout << endl;
     
